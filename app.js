@@ -76,7 +76,7 @@ function renderResults(data) {
         $(".area-results").append("<ul>" + place.location.country + "</ul>");
       }
       if (place.url) {
-        $(".area-results").append("<ul>" + place.url + "</ul>");
+        $(".area-results").append("<ul><a href='" + place.url +"'/a></ul>");
       }
     }
   } else {

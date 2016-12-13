@@ -53,7 +53,7 @@ function getDataFromAPI(location, success) {
 
 function checkLatLon() {
   if (!latlon) {
-    $(".area-results").append("<h2 class='laterMsg'>We don't have your location yet.  Punch it again!</h2>");
+    $(".area-results").append("<h2 class='laterMsg'>We don't have your location yet.  Press it again!</h2>");
   } else {
     $(".area-results").empty();
   }

@@ -34,7 +34,7 @@ function showError(error) {
 //**GetLocation Paste
 
 function locationMsg() {
-  var locaMsg = $(".area-results").append("</br> <h3 class='waitMsg'> Hit Allow!</h3>");
+  var locaMsg = $(".area-results").append("</br> <h3 class='waitMsg'>Keep Pressing Buttons!</h3>");
   return locaMsg;
 }
 

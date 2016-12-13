@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+body {
+  padding: 5%;
+}
+
+.area-results {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  padding-top: 15px;
+}
+
+.placeSec {
+  border-top: 1px solid black;
+}
+
+ul {
+  text-align: center;
+}
+
+.placeName {
+  font: italic bold;
+}
+
+.doAPI,
+.give-local {
+  font: 18px/1.5;
+  color: #fff;
+  margin: 0 auto;
+  padding-bottom: 15px;
+}
+
+a {
+  color: #fff;
+  margin: 0px auto;
+  text-decoration: none;
+}
+
+.doAPI,
+.give-local {
+  background: #DC143C;
+  text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.3);
+  font-size: 22px;
+  height: 58px;
+  width: 155px;
+  margin: 0 auto;
+  overflow: hidden;
+  display: block;
+  text-align: center;
+  line-height: 58px;
+  padding-bottom: 15px;
+  /*Rounded Corners*/
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  /*Shadow*/
+  -webkit-box-shadow: 0px 6px 0px rgba(0, 0, 0, 0.8);
+  -moz-box-shadow: 0px 6px 0px rgba(0, 0, 0, 0.8);
+  box-shadow: 0px 6px 0px rgba(0, 0, 0, 0.8);
+  /*Gradient*/
+  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+  background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+  background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+  background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+  background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+}
+
+.doAPI:hover,
+.give-local:hover {
+  /*Shadow*/
+  -webkit-box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.8);
+  -moz-box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.8);
+  box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.8);
+  /*Gradient*/
+  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
+  background-image: -moz-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
+  background-image: -o-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
+  background-image: -ms-linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
+  background-image: linear-gradient(bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
+}
+
+.doAPI {
+  display: none;
+}

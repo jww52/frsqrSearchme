@@ -41,7 +41,7 @@ function locationMsg() {
 function getDataFromAPI(location, success) {
   var url = "https://api.foursquare.com/v2/venues/search";
   var settings = {
-    ll: "40.78,73.97",
+    ll: latlon,
     radius: "1000",
     limit: "10",
     client_id: "03A5EQ1B52O5UKVZJMXRX1SEFLNG3T5D4SBO5UV5BC0OWPLM",

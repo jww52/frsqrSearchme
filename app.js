@@ -67,16 +67,16 @@ function renderResults(data) {
       var place = data.response.venues[i];
       $(".area-results").append("<div class='placeSec'><ul class='placeName'>" + place.name + "</ul></div>");
       if (place.location.address) {
-        $(".area-results").append("<ul>Near: " + place.location.address + "</ul>");
+        $(".area-results").append("<li>Near: " + place.location.address + "</li>");
       }
       if (place.location.city) {
-        $(".area-results").append("<ul>City: " + place.location.city + "</ul>");
+        $(".area-results").append("<li>City: " + place.location.city + "</li>");
       }
       if (place.location.country) {
-        $(".area-results").append("<ul>" + place.location.country + "</ul>");
+        $(".area-results").append("<li>" + place.location.country + "</li>");
       }
       if (place.url) {
-        $(".area-results").append("<ul><a href='" + place.url +"'/a></ul>");
+        $(".area-results").append("<a href='" + place.url +"'class='placeURL'/a>");
       }
     }
   } else {

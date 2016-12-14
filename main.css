@@ -25,6 +25,7 @@ body {
 
 ul {
   text-align: center;
+  padding-left: 0;
 }
 
 .placeName {
@@ -41,7 +42,7 @@ ul {
 
 a {
   color: #fff;
-  margin: 0px auto;
+  /*margin: 0px auto;*/
   text-decoration: none;
 }
 

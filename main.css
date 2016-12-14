@@ -45,7 +45,7 @@ li {
   padding-bottom: 15px;
 }
 
-a {
+a.doAPI, a.give-local {
   color: #fff;
   /*margin: 0px auto;*/
   text-decoration: none;
